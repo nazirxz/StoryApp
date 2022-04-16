@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDE6DB"
+    android:layout_marginTop="24dp"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:paddingTop="26dp"
+    android:orientation="vertical"
+    tools:context=".SignInActivity">
+
+
+    <TextView
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="#417D7A"
+        android:textSize="40dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="132dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/StoryApp" />
+
+    <TextView
+        style="@style/TextView.PoppinsNormal16sp020202"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email Address" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_marginTop="6dp"
+        android:padding="10dp"
+        style="@style/EditText.PoppinsNormal14sp8D92A3"
+        android:background="@drawable/shape_rectangle_outline_8_020202"
+        android:hint="Type your email address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="16dp"
+        style="@style/TextView.PoppinsNormal16sp020202"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        style="@style/EditText.PoppinsNormal14sp8D92A3"
+        android:background="@drawable/shape_rectangle_outline_8_020202"
+        android:hint="Type your password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnSignin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Button.Primary"
+        android:layout_marginTop="24dp"
+        android:text="Sign In"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:text="Create New Account"
+        android:theme="@style/Button.Secondary"
+        android:textAllCaps="false"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
