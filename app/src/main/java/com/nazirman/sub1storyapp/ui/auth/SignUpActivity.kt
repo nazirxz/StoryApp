@@ -2,7 +2,10 @@ package com.nazirman.sub1storyapp.ui.auth
 
 import android.content.Intent
 import android.os.Bundle
+import android.provider.Settings
 import android.util.Log
+import android.view.Menu
+import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -34,6 +37,30 @@ class SignUpActivity: AppCompatActivity() {
             createAccount(inputName, inputEmail, inputPassword)
         }
     }
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        val inflater = menuInflater
+        inflater.inflate(R.menu.settings, menu)
+
+        val addMenu = menu.findItem(R.id.menu_add)
+        val logoutMenu = menu.findItem(R.id.menu_logout)
+
+        addMenu.isVisible = false
+        logoutMenu.isVisible = false
+
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when(item.itemId) {
+            R.id.menu_language -> {
+                val intent = Intent(Settings.ACTION_LOCALE_SETTINGS)
+                startActivity(intent)
+                return true
+            }
+        }
+        return true
+    }
+
 
     private fun createAccount(inputName: String, inputEmail: String, inputPassword: String) {
         showLoading(true)

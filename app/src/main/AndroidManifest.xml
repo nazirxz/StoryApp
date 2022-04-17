@@ -18,14 +18,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Sub1StoryApp">
         <activity
-            android:name=".StoryActivity"
-            android:exported="false" />
-        <activity
             android:name=".ui.auth.SignUpActivity"
             android:exported="false" />
         <activity
             android:name=".ui.auth.MainActivity"
             android:exported="false" />
+        <activity android:name=".ui.story.StoryActivity"
+            android:exported="false"/>
         <activity android:name=".ui.splashscreen.SplashScreenActivity"
             android:exported="true">
             <intent-filter>
