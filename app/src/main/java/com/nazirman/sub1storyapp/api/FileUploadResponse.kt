@@ -1,4 +1,4 @@
-package com.nazirman.sub1storyapp.app
+package com.nazirman.sub1storyapp.api
 import com.google.gson.annotations.SerializedName
 
 data class FileUploadResponse(

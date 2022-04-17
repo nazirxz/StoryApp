@@ -8,10 +8,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.view.View
 import android.widget.Toast
 import com.nazirman.sub1storyapp.R
-import com.nazirman.sub1storyapp.SharedViewModel
+import com.nazirman.sub1storyapp.api.SharedViewModel
 import com.nazirman.sub1storyapp.StoryActivity
-import com.nazirman.sub1storyapp.app.ApiConfig
-import com.nazirman.sub1storyapp.app.LoginResponse
+import com.nazirman.sub1storyapp.api.ApiConfig
+import com.nazirman.sub1storyapp.api.LoginResponse
 import com.nazirman.sub1storyapp.databinding.ActivityMainBinding
 import com.nazirman.sub1storyapp.model.UserAuth
 import kotlinx.android.synthetic.main.activity_main.*
@@ -61,6 +61,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             override fun onFailure(call: Call<LoginResponse>, t: Throwable) {
+
                 showLoading(false)
                 Log.e(TAG, "onFailure2: ${t.message}")
                 Toast.makeText(this@MainActivity, getString(R.string.login_fail), Toast.LENGTH_SHORT).show()

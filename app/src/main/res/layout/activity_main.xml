@@ -48,7 +48,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
-                    <EditText
+                    <com.nazirman.sub1storyapp.EditText
                         android:id="@+id/edt_email"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
@@ -93,7 +93,7 @@
                     android:layout_height="wrap_content"
                     app:passwordToggleEnabled="true">
 
-                    <EditText
+                    <com.nazirman.sub1storyapp.EditText
                         android:id="@+id/edt_password"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"

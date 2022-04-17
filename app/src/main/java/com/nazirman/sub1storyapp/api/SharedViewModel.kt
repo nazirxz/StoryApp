@@ -1,4 +1,4 @@
-package com.nazirman.sub1storyapp
+package com.nazirman.sub1storyapp.api
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel

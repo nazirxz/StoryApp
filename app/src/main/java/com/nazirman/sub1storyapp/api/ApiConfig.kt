@@ -1,4 +1,4 @@
-package com.nazirman.sub1storyapp.app
+package com.nazirman.sub1storyapp.api
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
