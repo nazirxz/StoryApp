@@ -23,4 +23,6 @@
     <string name="logout">Logout</string>
     <string name="language_setting">Change Language</string>
     <string name="add_story_menu">Add Story</string>
+    <string name="fail_load_stories">Stories failed to load</string>
+    <string name="success_load_stories">Stories success to load</string>
 </resources>
