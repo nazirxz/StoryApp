@@ -18,7 +18,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Sub1StoryApp">
         <activity android:name=".MainActivity"/>
-        <activity android:name=".SignInActivity"/>
+        <activity android:name=".MainActivity"/>
         <activity android:name=".SignUpActivity"/>
         <activity android:name=".SplashScreenActivity"
             android:exported="true">
