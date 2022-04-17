@@ -30,6 +30,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(activityMainBinding.root)
 
         btn_login.setOnClickListener {
+            validasi()
             val inputEmail = activityMainBinding.edtEmail.text.toString()
             val inputPassword = activityMainBinding.edtPassword.text.toString()
 
@@ -38,6 +39,21 @@ class MainActivity : AppCompatActivity() {
         btn_register.setOnClickListener{
             startActivity(Intent(this@MainActivity,
                 SignUpActivity::class.java))
+        }
+    }
+    fun validasi() {
+        if (edt_email.text!!.isEmpty()) {
+            edt_email.error = "Kolom Email tidak boleh kosong"
+            edt_email.requestFocus()
+            return
+        } else if (edt_password.text!!.isEmpty()) {
+            edt_password.error = "Kolom Password tidak boleh kosong"
+            edt_password.requestFocus()
+            return
+        } else if (edt_password.text.toString().length < 6) {
+            edt_password.setError("Minimum password ialah 6 karakter")
+            edt_password.requestFocus()
+            edt_password.isEnabled = true
         }
     }
     private fun login(inputEmail: String, inputPassword: String) {

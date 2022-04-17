@@ -16,6 +16,7 @@ import retrofit2.Response
 
 class SignUpActivity: AppCompatActivity() {
     private lateinit var registerBinding :ActivitySignupBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         registerBinding = ActivitySignupBinding.inflate(layoutInflater)
@@ -33,6 +34,7 @@ class SignUpActivity: AppCompatActivity() {
             createAccount(inputName, inputEmail, inputPassword)
         }
     }
+
     private fun createAccount(inputName: String, inputEmail: String, inputPassword: String) {
         showLoading(true)
 
