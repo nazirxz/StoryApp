@@ -17,10 +17,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Sub1StoryApp">
-        <activity android:name=".MainActivity"/>
-        <activity android:name=".MainActivity"/>
-        <activity android:name=".SignUpActivity"/>
-        <activity android:name=".SplashScreenActivity"
+        <activity
+            android:name=".StoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.auth.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.auth.MainActivity"
+            android:exported="false" />
+        <activity android:name=".ui.splashscreen.SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

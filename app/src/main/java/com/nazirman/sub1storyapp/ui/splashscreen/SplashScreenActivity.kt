@@ -1,9 +1,11 @@
-package com.nazirman.sub1storyapp
+package com.nazirman.sub1storyapp.ui.splashscreen
 
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
+import com.nazirman.sub1storyapp.R
+import com.nazirman.sub1storyapp.ui.auth.MainActivity
 
 class SplashScreenActivity : AppCompatActivity() {
 

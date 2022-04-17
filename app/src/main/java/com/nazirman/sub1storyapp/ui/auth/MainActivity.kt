@@ -1,4 +1,4 @@
-package com.nazirman.sub1storyapp
+package com.nazirman.sub1storyapp.ui.auth
 
 import android.content.ContentValues.TAG
 import android.content.Intent
@@ -7,6 +7,9 @@ import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import android.view.View
 import android.widget.Toast
+import com.nazirman.sub1storyapp.R
+import com.nazirman.sub1storyapp.SharedViewModel
+import com.nazirman.sub1storyapp.StoryActivity
 import com.nazirman.sub1storyapp.app.ApiConfig
 import com.nazirman.sub1storyapp.app.LoginResponse
 import com.nazirman.sub1storyapp.databinding.ActivityMainBinding
