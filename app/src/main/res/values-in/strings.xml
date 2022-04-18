@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Story App</string>
+    <string name="title_home">Halaman Utama</string>
+    <string name="register">Daftar Sekarang</string>
+    <string name="nama">Nama Lengkap</string>
+    <string name="email">Alamat Email</string>
+    <string name="password">Password</string>
+    <string name="SignIn">Masuk</string>
+    <string name="SignUp">Daftar</string>
+    <string name="register_success">Register berhasil</string>
+    <string name="register_fail">Register gagal</string>
+    <string name="login_success">Login berhasil</string>
+    <string name="login_fail">Login gagal</string>
+    <string name="email_warning">Format Email salah</string>
+    <string name="password_warning">Password harus memiliki 6 karakter lebih</string>
+    <string name="name_warning">Nama tidak boleh kosong</string>
+    <string name="description">Deskripsi</string>
+    <string name="logout">Keluar</string>
+    <string name="language_setting">Ganti Bahasa</string>
+    <string name="add_story_menu">Tambah Story</string>
+    <string name="fail_load_stories">Story gagal dimuat</string>
+    <string name="success_load_stories">Story sukses dimuat</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="upload">Upload</string>
+    <string name="fail_take_picture">Gagal mengambil gambar</string>
+    <string name="fail_show_camera">Gagal membuka kamera</string>
+    <string name="permission_denied">Akses dilarang</string>
+    <string name="upload_success">Upload berhasil</string>
+    <string name="upload_fail">Upload gagal</string>
+    <string name="welcome">Selamat Datang</string>
+    <string name="fullname">Full Name</string>
+    <string name="btnregister">Register</string>
+
+</resources>

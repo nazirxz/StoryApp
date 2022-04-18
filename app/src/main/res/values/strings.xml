@@ -1,11 +1,6 @@
 <resources>
     <string name="app_name">Story App</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_main">MainActivity</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Order</string>
-    <string name="title_notifications">Profile</string>
-    <string name="ini_adalah_icon_ok">ini adalah icon ok</string>
     <string name="register">Sign Up Now</string>
     <string name="nama">Full Name</string>
     <string name="email">Email Address</string>
@@ -33,4 +28,7 @@
     <string name="permission_denied">Permission denied</string>
     <string name="upload_success">Upload success</string>
     <string name="upload_fail">Upload fail</string>
+    <string name="welcome">Welcome</string>
+    <string name="fullname">Full Name</string>
+    <string name="btnregister">Register</string>
 </resources>
