@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Bangkit/Submission/IntermediateAndroid/Sub1StoryApp/app/src/main/res/drawable-v24/ic_capture.xml" value="0.1703125" />
+        <entry key="..\:/Bangkit/Submission/IntermediateAndroid/Sub1StoryApp/app/src/main/res/drawable-v24/ic_temp_image.xml" value="0.28958333333333336" />
         <entry key="..\:/Bangkit/Submission/IntermediateAndroid/Sub1StoryApp/app/src/main/res/drawable/bg_btn_login1.xml" value="0.37864583333333335" />
         <entry key="..\:/Bangkit/Submission/IntermediateAndroid/Sub1StoryApp/app/src/main/res/drawable/ic_account_circle_black_24dp.xml" value="0.37864583333333335" />
         <entry key="..\:/Bangkit/Submission/IntermediateAndroid/Sub1StoryApp/app/src/main/res/drawable/ic_add.xml" value="0.246875" />
@@ -15,7 +17,9 @@
         <entry key="..\:/Bangkit/Submission/IntermediateAndroid/Sub1StoryApp/app/src/main/res/drawable/shape_rectangle_8_fff.xml" value="0.3111111111111111" />
         <entry key="..\:/Bangkit/Submission/IntermediateAndroid/Sub1StoryApp/app/src/main/res/drawable/shape_rectangle_outline_8_020202.xml" value="0.37864583333333335" />
         <entry key="..\:/Bangkit/Submission/IntermediateAndroid/Sub1StoryApp/app/src/main/res/font/poppins.xml" value="0.3927083333333333" />
-        <entry key="..\:/Bangkit/Submission/IntermediateAndroid/Sub1StoryApp/app/src/main/res/layout/activity_detail_story.xml" value="0.27708333333333335" />
+        <entry key="..\:/Bangkit/Submission/IntermediateAndroid/Sub1StoryApp/app/src/main/res/layout/activity_add_story.xml" value="3.0" />
+        <entry key="..\:/Bangkit/Submission/IntermediateAndroid/Sub1StoryApp/app/src/main/res/layout/activity_camera.xml" value="0.15416666666666667" />
+        <entry key="..\:/Bangkit/Submission/IntermediateAndroid/Sub1StoryApp/app/src/main/res/layout/activity_detail_story.xml" value="0.25" />
         <entry key="..\:/Bangkit/Submission/IntermediateAndroid/Sub1StoryApp/app/src/main/res/layout/activity_main.xml" value="0.3625" />
         <entry key="..\:/Bangkit/Submission/IntermediateAndroid/Sub1StoryApp/app/src/main/res/layout/activity_signin.xml" value="0.25" />
         <entry key="..\:/Bangkit/Submission/IntermediateAndroid/Sub1StoryApp/app/src/main/res/layout/activity_signup.xml" value="0.22" />

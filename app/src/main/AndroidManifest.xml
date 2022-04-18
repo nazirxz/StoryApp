@@ -17,6 +17,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Sub1StoryApp">
+        <activity android:name=".ui.detail.DetailStoryActivity" android:exported="false"/>
+        <activity android:name=".ui.story.AddStoryActivity" android:exported="false"/>
+        <activity android:name=".ui.camera.CameraActivity" android:exported="false"/>
         <activity
             android:name=".ui.auth.SignUpActivity"
             android:exported="false" />
