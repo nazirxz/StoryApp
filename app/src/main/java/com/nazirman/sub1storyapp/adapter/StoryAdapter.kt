@@ -19,6 +19,7 @@ class StoryAdapter(private val listStories: ArrayList<Story>) : RecyclerView.Ada
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val imgPhoto: ImageView = view.findViewById(R.id.img_photo)
         val tvName: TextView = view.findViewById(R.id.tv_name)
+        val desc: TextView = view.findViewById(R.id.tv_desc)
     }
 
     override fun onCreateViewHolder(viewGroup: ViewGroup, viewType: Int): ViewHolder {
@@ -27,11 +28,11 @@ class StoryAdapter(private val listStories: ArrayList<Story>) : RecyclerView.Ada
 
     override fun onBindViewHolder(viewHolder: ViewHolder, position: Int) {
         viewHolder.tvName.text = listStories[position].name
+        viewHolder.desc.text = listStories[position].description
         Glide.with(viewHolder.itemView.context)
             .load(listStories[position].photo)
-            .circleCrop()
+            .centerCrop()
             .into(viewHolder.imgPhoto)
-
     }
 
     override fun getItemCount(): Int {
