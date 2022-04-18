@@ -12,8 +12,8 @@
 
     <ImageView
         android:id="@+id/img_photo"
-        android:layout_width="361dp"
-        android:layout_height="125dp"
+        android:layout_width="376dp"
+        android:layout_height="173dp"
         android:layout_gravity="center"
         android:layout_margin="10dp"
         android:contentDescription="@string/app_name"
@@ -44,6 +44,6 @@
         android:text="@string/description"
         android:textSize="12sp"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@+id/tv_name"
-        tools:layout_editor_absoluteX="-1dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_name" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.nazirman.sub1storyapp.R
 import com.nazirman.sub1storyapp.model.Story
+import com.nazirman.sub1storyapp.ui.detail.DetailStoryActivity
 
 
 class StoryAdapter(private val listStories: ArrayList<Story>) : RecyclerView.Adapter<StoryAdapter.ViewHolder>(){
@@ -33,6 +34,19 @@ class StoryAdapter(private val listStories: ArrayList<Story>) : RecyclerView.Ada
             .load(listStories[position].photo)
             .centerCrop()
             .into(viewHolder.imgPhoto)
+
+        viewHolder.itemView.setOnClickListener {
+            val optionsCompat: ActivityOptionsCompat =
+                ActivityOptionsCompat.makeSceneTransitionAnimation(
+                    viewHolder.itemView.context as Activity,
+                    Pair(viewHolder.imgPhoto, "img_photo_detail_transition"),
+                    Pair(viewHolder.tvName, "tv_name_detail_transition"),
+                )
+
+            val intent = Intent(viewHolder.itemView.context, DetailStoryActivity::class.java)
+            intent.putExtra(DetailStoryActivity.DETAIL_STORY, listStories[position])
+            viewHolder.itemView.context.startActivity(intent, optionsCompat.toBundle())
+        }
     }
 
     override fun getItemCount(): Int {
