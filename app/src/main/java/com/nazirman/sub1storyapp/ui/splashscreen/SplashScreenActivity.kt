@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.nazirman.sub1storyapp.R
 import com.nazirman.sub1storyapp.ui.auth.MainActivity
 
+
 class SplashScreenActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
